@@ -3,9 +3,7 @@ This project focuses on detecting fraudulent financial transactions using machin
 ---
 
 ## 📂 Project Structure
-
----
-
+--
 ## ⚙️ Technologies Used
 - **Python 3.10+**
 - **Pandas / NumPy** — Data manipulation
@@ -45,25 +43,25 @@ This project focuses on detecting fraudulent financial transactions using machin
 ## 🚀 How to Run
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/nuragajraj/fraud-detection.git
+   git clone https://github.com/nuragajraj/Fraud-Detection-Machine-Learning-Project.git
    cd fraud-detection
    
-  Install Dependencies
+2.**Install Dependencies**
+  ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn
-
-Run the Notebook
+```
+3.**Run the Notebook**
+```bash
 jupyter notebook FraudDetection.ipynb
+```
 
 
+## 🧠 Key Learnings
+  -How to handle imbalanced datasets using SMOTE
+  -Importance of feature engineering for fraud detection
+  -Using ROC-AUC & Precision-Recall curves for model evaluation
 
-🧠 Key Learnings
-How to handle imbalanced datasets using SMOTE
-
-Importance of feature engineering for fraud detection
-
-Using ROC-AUC & Precision-Recall curves for model evaluation
-
-📜 License
-This project is for educational purposes only.
-Feel free to fork and experiment! 🚀
+## 📜 License
+  -This project is for educational purposes only.
+  -Feel free to fork and experiment! 🚀
 
